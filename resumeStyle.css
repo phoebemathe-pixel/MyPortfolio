@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 60px;
+    background-image : url('greyTable.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+nav{
+    background-color: olive;
+    color: rgb(7, 0, 5);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end; 
+  list-style: none; 
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.button{
+    background-color: olive;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.tabs-bottom{
+    position : fixed;
+    bottom : 0;
+    left     : 0;
+    z-index  : 500;
+    width    : 100%;
+    height   : 60px;
+    background-color: militarygreen;
+}
+
+h1{
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #000000;
+    border-bottom: 2px solid #23af00;
+    padding-bottom: 5px;
+}
+
+/*h3{
+    color:rgb(74, 221, 45);
+    font-family:'Times New Roman', Times, serif;
+}
+
+p{
+    color: black;
+    font-family: segoe;
+    font-size: 20px;
+    font-weight: bold;
+}*/
+
+a{
+    font-family: helvetica;
+    text-decoration: none;
+    background-color: beige;
+    padding: 2px;
+    color: rgb(1, 83, 5);
+}
+
+.job-card {
+    height: auto;
+    min-height: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #23af00; 
+}
+
+.job-card h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.job-date{
+    display: block;
+    font-size: 14px;
+    color: #00ff4c; 
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.job-duties {
+    padding-left: 20px; 
+}
+
+.job-duties li {
+    font-size: 15px;
+    color: #e0e0e0;
+    line-height: 1.6; 
+    margin-bottom: 6px;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    transform: translate(70px, -200px);
+    justify-content: flex-end;
+}
+
