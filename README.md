@@ -30,8 +30,13 @@ This website was developed as part of an academic assignment to demonstrate web 
 create a professional online portfolio.
 
 ##Homepage
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/dea365b5-2bff-476b-9f5f-46afb4698523" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/dea365b5-2bff-476b-9f5f-46afb4698523" />
 
+##Resume
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/07c4afc1-64f3-4537-a659-7cd6fcef5c5a" />
+
+##Projects
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/644213d2-0815-4878-8eba-a2aeed9903c5" />
 
 Author:
 Botshelo Mathe
